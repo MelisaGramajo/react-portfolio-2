@@ -6,19 +6,20 @@ import ProjectsContainer from './components/ProjectsContainer';
 import Footer from './components/Footer';
 import StudiesContainer from './components/StudiesContainer';
 import raul from './assets/raul.png';
-import albert from './assets/albert.png';
+import montserrat from './assets/montserrat.png';
 import utn from './assets/utn.png';
+import belfort from './assets/belfort.jpg';
 
 export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       theme: "Dark", // Light or Dark
-      avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQHulXu2eGehkg/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=rEImrtkR0KNgbuJW0u8GNp7fXLx1ZoUrJYRqpeJe1FA",
+      avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQF0kJfoujajgg/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=TRuHSsgwcGPVONL74CWMr9fpdyLN2DV7fWPklLVouh8",
       flag: "https://cdn.countryflags.com/thumbs/argentina/flag-round-250.png",
-      name: "Alex Lecco",
-      roll: "Web UI Developer",
-      description: "Desarrollador Web/Mobile, Aprendedor frecuente, Entusiasta de la tecnología. Actualmente desempleñandome como Web UI development en Globant y como mentor en Rolling Code School, busco crecer en el mundo del desarrollo de software y ayudar a otros a lograrlo tambien.",
+      name: "Gramajo, Melisa Rocio",
+      roll: "Software Engineer - QA Tester",
+      description: "Ing. en Sistemas de Información, con experiencia en el área Informática (+2 años). Particularmente interesada en Quality Assurance.Soy una persona comprometida, tengo ideas innovadoras, me gustan los desafíos y nuevos proyectos que me pudieran proponer; así lograr crecer personal y profesionalmente.",
       mySkills: [
         {
           name: "HTML",
@@ -75,32 +76,32 @@ export default class App extends Component {
         }],
       myProjects: [
         {
-          name: "RollingBook",
-          photo: "https://i.ytimg.com/vi/qL_P1pkuD3g/maxresdefault.jpg"
+          name: "RollingGOT",
+          photo: "https://lh3.googleusercontent.com/Lb5o9RziqZWeBXUCYhBsuM-Ovro9lntW69wfOTA3UQzMBdeCD9PVw_J_1tei95p9DmRZTsh0J8pY5dNP-wGZt5o0L7kp1HY8nSMDSrBUVfDn67P2UeENgvR3SyD7YqBR1pGtyM7SaXa187qYymQPSaGns8MS8w0LnbclV8KpVfDAJPOCFcVKqkugr8RYNWSGo2AiYlOQogu_Ik6JwCkrFDBv2RRyo-J2v-xZA6Si4FItFVa-Ic0Lj3Nmx5t1IkebCO4bcFzDWBi4maEuumnTAcxO42yCWO0VNEVwLe0-vk06T1EYZbgw0wG-ismquAQxM_yz9N1uguQFyAgwCX2AJC6ymRG-nizZMLVgDoZSqQYQKkrnN5b26Yq2ZaWUYjo_YbJM6o2scvT21mj1uh0r--1tV78rMzfznCSGitXX9PhRsHDvl__rs4G2G2o0BJfIosrzPp7YWvvHKbrn3UkOgT77TAkrSs5OSN5mv1Y7Jo-TyTOgIcXa4EE-NKg9rMPqJl9DD1o09E0mgdVYNDlvGsUM2y6UiNm0_3u9KP8jozgVscqpKNJOFlGmIFrd3OPKCbti-nt1X_nNKfSacrhRMJExWR_-ItOJ0rbclOwd5k93ATdVUuA_57ci-I6fIRF0WG_xHmuuutNF6AZRTSHN--sZK0E4RGlvHvbd2OK7_oE48Db1zZt66gE=w1864-h890-no"
         },
         {
           name: "RollingMedical",
-          photo: "https://www.websitesdesign.site/imagini/medicom-flat-design-doctor-website-template.jpg"
+          photo: "https://lh3.googleusercontent.com/ncO0OpMdTTZi7gU2Lzsz6Qntf3kyPAIbwkHkLI3-l7d1qqOz-Bh5ST7NFEzlqjPL1MAkuKJg4Ww3eGwgWFBhIBrRD6n6KO6HGDSwiWPMqSGf8QwpMnoUSlluZ7sU3oyC9BIFbgGO_Tv6Yt3mVK1hEAt7RF8CXEdAhM0R1ip7896AAMylna9ax7ajuKBvSURvdhhQcvvVcSeEuZBmLvpbEYbsG7Is2goLqzJdkeERiycciCvsMH_Zv4_aqHb6TdEi_s-EuJW6uqNJaZholvxdrbguDjOcr7qC2wBvxczpLmOa-f-98ujzha4zpcU4Jzja-eZnsfMpGtC_fFQidgiM935BnLCP8uiOWTWoeysloZmN8msKFB1ZAzhRj9ZntTCoFmyaOQ_Jg_zPH-VVVzlSzxjheQtoOO9_aXadWQQI2eSJBIiXzgYlk2gtAdm6FhpP_jreS8FR-uzAWSeEIiRvk5CalsVKjqqkZvrN0LDzBQl5-Pk5RXrEXQ4lI4mperluwt12XSgW0khZQtArBTFkp0lFFn4ZPYnfNH4Tr0oTbKdTljvrtdSr-bakzElmja05pPVmj93RxVEq5MjLQKtpkjVIu4gDG0_J1nr7K9U6Fnr-qVIozYON3eD3gZqUod2KA275wwf1ZjINf49P8LZxgWk3aQv5CFrIytr6Ey62Ckaonser-xj8fn4=w1864-h836-no"
         }
       ],
       myStudies: [
         {
-          level: "primario",
-          place: "Raul Colombres",
-          year: "2002",
-          photo: raul
+          level: "Secundario",
+          place: "Nuestra Señora del Montserrat",
+          year: "2007-2012",
+          photo: montserrat
         },
         {
-          level: "secundario",
-          place: "Alberto Einstein",
-          year: "2007",
-          photo: albert
-        },
-        {
-          level: "universitario",
-          place: "UTN",
-          year: "?",
+          level: "Universitario",
+          place: "Universidad Tecnológica Nacional (UTN-FRT)",
+          year: "2013-2019",
           photo: utn
+        },
+        {
+          level: "Universitario",
+          place: "Université de Technologie Belfort-Montbéliard",
+          year: "2018",
+          photo: belfort
         }
       ]
     }

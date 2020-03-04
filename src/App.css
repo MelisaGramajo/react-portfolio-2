@@ -1,13 +1,13 @@
 .Dark {
   text-align: center;
-  background-color: #282c34;
+  background-color: #2C4772;
   /*background-color: darkviolet;*/
   color: white;
 }
 
 .Light {
   text-align: center;
-  background-color: #bcac80;
+  background-color: #1755B7;
   /*background-color: darkviolet;*/
   color: #211f19;
 }
@@ -20,6 +20,8 @@
 .image-container {
   position: relative;
   display: inline-block;
+  width: 800px;
+  height: 500px;
 }
 
 .image-container .project-name, .study-info {
@@ -31,7 +33,8 @@
   top: 50%;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
-  width: 70%;
+  width: 400px;
+  height: 100px;
 }
 
 .presentation-avatar {
