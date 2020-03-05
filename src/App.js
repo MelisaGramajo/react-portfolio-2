@@ -17,7 +17,7 @@ export default class App extends Component {
       theme: "Dark", // Light or Dark
       avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQF0kJfoujajgg/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=TRuHSsgwcGPVONL74CWMr9fpdyLN2DV7fWPklLVouh8",
       flag: "https://cdn.countryflags.com/thumbs/argentina/flag-round-250.png",
-      name: "Gramajo, Melisa Rocio",
+      name: "Gramajo, Melisa Rociooooo",
       roll: "Software Engineer - QA Tester",
       description: "Ing. en Sistemas de Información, con experiencia en el área Informática (+2 años). Particularmente interesada en Quality Assurance.Soy una persona comprometida, tengo ideas innovadoras, me gustan los desafíos y nuevos proyectos que me pudieran proponer; así lograr crecer personal y profesionalmente.",
       mySkills: [
